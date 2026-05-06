@@ -6,3 +6,13 @@
     --color-text: #334155;       /* Slate text */
     --font-main: 'Segoe UI', sans-serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-main);
+    color: var(--color-text);
+}
